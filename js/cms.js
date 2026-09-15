@@ -19,8 +19,8 @@ const GSHEET_GID = "0"; // the tab's gid, "0" is the first tab
  * Apps Script Web App bound to the same sheet — free, no API key, nothing to
  * host. See "Apps Script setup" notes at the bottom of this file.
  */
-const APPS_SCRIPT_URL = null; // e.g. "https://script.google.com/macros/s/AKfycb.../exec"
-const ADMIN_SECRET = "changeme"; // must match SHARED_SECRET in the Apps Script
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyFhsj3b8ROrK7JlBJ0uxMXPcDg--fZ9Ux1b1pdoF5QLz8X7XWBylQSfg391IhpNYuf/exec";
+const ADMIN_SECRET = "Password"; // must match SHARED_SECRET in the Apps Script
 
 let cachedRows = null;
 
