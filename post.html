@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Blog Post | Adamas Tech Consulting</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <section class="article-hero">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <img class="sep" src="assets/chevron-right.svg" alt="" />
+      <a href="index.html">Blogs</a>
+      <img class="sep" src="assets/chevron-right.svg" alt="" />
+      <span class="current" id="breadcrumbTitle">Loading…</span>
+    </nav>
+    <div>
+      <div class="article-meta">
+        <img src="assets/alarm.svg" alt="" />
+        <span id="readTime">Read time : –</span>
+      </div>
+      <h1 id="articleTitle">Loading…</h1>
+      <p class="byline" id="articleAuthor"></p>
+    </div>
+  </section>
+
+  <div class="article-layout container">
+    <article class="article-body">
+      <div class="article-body__cover">
+        <img id="articleCover" src="" alt="" />
+      </div>
+      <div class="article-content" id="articleContent"></div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="consult-card">
+        <h3>You are one call away from professional guidance</h3>
+        <a href="https://adamastechconsulting.com/contact/" class="btn btn-primary">Book a Consultation</a>
+        <div class="avatar-stack">
+          <img src="assets/avatar-1.png" alt="" />
+          <img src="assets/avatar-2.png" alt="" />
+          <img src="assets/avatar-3.png" alt="" />
+          <img src="assets/avatar-4.png" alt="" />
+          <img src="assets/avatar-5.png" alt="" />
+        </div>
+        <p class="consult-card__caption">100+ calls Booked last month</p>
+      </div>
+
+      <div class="related-list">
+        <h4>Related Blogs</h4>
+        <div id="relatedList"></div>
+      </div>
+    </aside>
+  </div>
+
+  <section class="cta-banner" id="cta-banner"></section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/layout.js"></script>
+  <script src="js/posts.js"></script>
+  <script src="js/cms.js"></script>
+  <script src="js/blog-post.js"></script>
+</body>
+</html>
